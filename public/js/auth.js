@@ -1,7 +1,7 @@
 const form = document.querySelector('form');
 const url = window.location.hostname.includes('localhost') ?
     'http://localhost:4000/api/auth/' :
-    'https://cursonode-socket-server.herokuapp.com/api/auth';
+    'https://cursonode-socket-server.herokuapp.com/api/auth/';
 
 form.addEventListener('submit', (ev) => {
     ev.preventDefault();
